@@ -70,8 +70,8 @@
                                 </thead>
                                 <tbody>
                                 <tr class="gradeX" th:each="student,status:${page.records}">
-                                    <td th:if-then="" th:text="${status.count}"></td>
-                                    <td ><input type="text" class="form-control small" value="Aishmen"></td>
+                                    <td th:text="${status.count}"></td>
+<!--                                    <td><input type="text" class="form-control small" value="Aishmen"></td>-->
                                     <td th:text="${student.name}"></td>
                                     <td th:text="${student.email}"></td>
                                     <td th:text="${student.age}" class="center hidden-phone"></td>
